@@ -97,7 +97,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+							<a href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -119,13 +119,13 @@
 						<div class="search-bar-top">
 							<div class="search-bar">
 								<select>
-									<option selected="selected">All Category</option>
-									<option>watch</option>
-									<option>mobile</option>
-									<option>kid’s item</option>
+									<option selected="selected">Category</option>
+									<option>Thiès</option>
+									<option>Guediaway</option>
+									<option>Lac Rose</option>
 								</select>
 								<form>
-									<input name="search" placeholder="Search Products Here....." type="search">
+									<input name="search" placeholder="cherche la commune" type="search">
 									<button class="btnn"><i class="ti-search"></i></button>
 								</form>
 							</div>
@@ -142,35 +142,7 @@
 							</div>
 							<div class="sinlge-bar shopping">
 								<a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">2</span></a>
-								<!-- Shopping Item -->
-								<div class="shopping-item">
-									<div class="dropdown-cart-header">
-										<span>2 Items</span>
-										<a href="#">View Cart</a>
-									</div>
-									<ul class="shopping-list">
-										<li>
-											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-											<a class="cart-img" href="#"><img src="assets/images/AFFICHE.jpg" alt="#"></a>
-											<h4><a href="#">Woman Ring</a></h4>
-											<p class="quantity">1x - <span class="amount">$99.00</span></p>
-										</li>
-										<li>
-											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
-											<h4><a href="#">Woman Necklace</a></h4>
-											<p class="quantity">1x - <span class="amount">$35.00</span></p>
-										</li>
-									</ul>
-									<div class="bottom">
-										<div class="total">
-											<span>Total</span>
-											<span class="total-amount">$134.00</span>
-										</div>
-										<a href="checkout.html" class="btn animate">Checkout</a>
-									</div>
-								</div>
-								<!--/ End Shopping Item -->
+
 							</div>
 						</div>
 					</div>
@@ -182,24 +154,18 @@
 			<div class="container">
 				<div class="cat-nav-head">
 					<div class="row">
-						<div class="col-lg-3">
-							<div class="all-category">
-								<h3 class="cat-heading">NSBUSINESS</h3>
-							</div>
-						</div>
-						<div class="col-lg-9 col-12">
+
+
+
+						<div class="col-lg-12 col-12">
 							<div class="menu-area">
 								<!-- Main Menu -->
 								<nav class="navbar navbar-expand-lg">
 									<div class="navbar-collapse">
 										<div class="nav-inner">
 											<ul class="nav main-menu menu navbar-nav">
-													<li class="active"><a href="#">Home</a></li>
-													<li><a href="#">Product</a></li>
-													<li><a href="#">Service</a></li>
-													<li><a href="#">Pages</a></li>
-													<li><a href="blog-single-sidebar.html">Blog<i class="ti-angle-down"></i></a>
-													</li>
+													<li class="active"><a href="#">Acueil</a></li>
+													<li><a href="#">Terrains</a></li>
 													<li><a href="contact.html">Contact Us</a></li>
 												</ul>
 										</div>
