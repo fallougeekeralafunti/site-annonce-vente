@@ -116,27 +116,7 @@
 	<!-- Shopping Cart -->
 	<div class="shopping-cart section">
 		<div class="container">
-			<div class="row" >
-				<div class="col-12">
-					<!-- Total Amount -->
-					<div class="total-amount">
-						<div class="row">
-							<div class="col-lg-8 col-md-5 col-12">
 
-							</div>
-							<div class="col-lg-4 col-md-7 col-12">
-								<div class="right">
-
-									<div class="button5">
-										<a href="#" class="btn">Ajouter Terrain</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/ End Total Amount -->
-				</div>
-			</div>
 			<div class="row mt-5">
 				<div class="col-12">
 					<!-- Shopping Summery -->
@@ -184,7 +164,74 @@
 					<!--/ End Shopping Summery -->
 				</div>
 			</div>
+            <div class="row" >
+				<div class="col-12">
+					<!-- Total Amount -->
+					<div class="total-amount">
+						<div class="row">
+							<div class="col-lg-8 col-md-5 col-12">
 
+							</div>
+							<div class="col-lg-4 col-md-7 col-12">
+								<div class="right">
+
+									<div class="button5">
+										<a href="#" class="btn">Ajouter Terrain</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/ End Total Amount -->
+				</div>
+			</div>
+            <div class="row mt-5">
+				<div class="col-12">
+					<!-- Shopping Summery -->
+					<form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="" class="form-label">titre</label>
+                          <input type="text" name="titre" class="form-control" id="inputtext4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="" class="form-label">Description</label>
+                          <input type="text" name="description" class="form-control" id="">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">prix</label>
+                          <input type="text" name="prix" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputtext4" class="form-label">dimension</label>
+                            <input type="text" name="dimension" class="form-control" id="inputtext4">
+                          </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">region</label>
+                            <input type="text" name="region" class="form-control" id="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputtext4" class="form-label">commune</label>
+                            <input type="text" name="commune" class="form-control" id="inputtext4">
+                          </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">department</label>
+                            <input type="text" name="departement" class="form-control" id="">
+                        </div><div class="col-md-6">
+                            <label for="inputtext4" class="form-label">etat</label>
+                            <input type="text" name="etat" class="form-control" id="">
+                          </div>
+                        <div class="col-md-6">
+                            <input type="hidden"  name="id_categorie" class="form-control" id="" value="id_categorie">
+                        </div>
+
+
+                        <div class="col-12 mt-3">
+                          <button type="submit" class="btn btn-primary">Ajouter Terrain</button>
+                        </div>
+                      </form>
+					<!--/ End Shopping Summery -->
+				</div>
+			</div>
 
 		</div>
 	</div>
